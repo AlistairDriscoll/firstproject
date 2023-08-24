@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
 body {
-    background-color: #873114;
+    background-color: #561b1a;
     font-family: 'Open Sans', Arial, sans-serif;
 }
+
+h1, h2 {
+    font-family: Mali, 'Brush Script MT', cursive;
+    font-weight: medium;
+    color: #f0c148;
+}
+
+
 
