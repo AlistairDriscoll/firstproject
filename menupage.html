@@ -8,24 +8,23 @@
     <meta name="author" content="Alistair Driscoll">
     <title>Ally Pally's Menu Page</title>
     <link href="assets/css/firstproject.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/002/215/990/original/saxophone-icon-musical-instrument-for-jazz-golden-musical-instruments-concept-classical-music-jazz-concert-performance-flat-cartoon-illustration-isolated-on-white-background-vector.jpg">
+    <link rel="icon" type="image/x-icon" href="assets/images/website-icon.jpg">
 </head>
 <body>
     <!--Header used accross all pages-->
     <header>
         <h1 class="text-center">Ally Pally's</h1>
+        <nav>
+            <a href="index.html" aria-label="home-page-button">Homepage</a>
+            <a href="menupage.html" aria-label="menus-page-button">Menus</a>
+            <a href="contactpage.html" aria-label="contact-page-button">Contact</a>
+        </nav>
     </header>
     <hr>
-    <nav>
-        <a href="firstpage.html" aria-label="home-page-button">Homepage</a>
-        <a href="menupage.html" aria-label="menus-page-button">Menus</a>
-        <a href="contactpage.html" aria-label="contact-page-button">Contact</a>
-    </nav>
-    <hr>
     <!--content for menus page-->
-    <h2>Menus:</h2>
     <main>
-        <section>
+        <section class="menu-section text-center">
+            <h2>Menus:</h2>
             <div>
                 <h3>Beer and Cider:</h3>
                 <ul>
@@ -40,11 +39,11 @@
                 </ul>
             </div>
             <div>
-              <img src="https://images.unsplash.com/photo-1572916108357-39ee1f59e007?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="picture-of-beers" width="320">
+                <img src="assets/images/beers.jpg" alt="picture-of-beers" width="320">
             </div>
         </section>
         <br>
-        <section>
+        <section class="menu-section menu-section-reverse">
             <div>
                 <h3>Cocktails:</h3>
                 <ul>
@@ -56,10 +55,10 @@
                 </ul>
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1683744129473-77f257db55fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="cocktail-pictiure-on-a-bar" width="320">
+                <img src="assets/images/Cocktails.jpg" alt="picture-of-cocktails" width="320">
             </div>
         </section>
-        <section>
+        <section class="menu-section">
             <div>
                 <h3>Wine List:</h3>
                 <ul>
@@ -93,10 +92,10 @@
                 </ul>
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1554381401-dc595be1d842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=391&q=80" alt="wine-picture" width="320">
+                <img src="assets/images/wines.jpg" alt="wine-picture" width="320">
             </div>
         </section>
-        <section>
+        <section class="menu-section menu-section-reverse">
             <div>
                 <h3>All Day Snacks:</h3>
                 <ul>
@@ -108,10 +107,11 @@
                     <li>Mixed Olives £3.50</li>
                 </ul>
             </div>
-            <img src="https://images.unsplash.com/photo-1683543121487-b718fa4f8bd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="olives-picture" width="320">
+            <div>
+                <img src="assets/images/olives.jpg" alt="picture-of-olives" width="320">
             </div>
         </section>
-        <section>
+        <section class="menu-section">
             <div>
                 <h3>Breakfast & Brunch 8am-2pm:</h3>
                 <ul>
@@ -124,10 +124,10 @@
                 </ul>
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="pancake-picture" width="320">
+                <img src="assets/images/pancakes.jpg" alt="pancake-picture" width="320">
             </div>
         </section>
-        <section>
+        <section class="menu-section menu-section-reverse">
             <div>
                 <h3>Evening 3pm-7pm:</h3>
                 <ul>
@@ -141,10 +141,10 @@
                 </ul>
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="picture-of-burger" width="320">
+                <img src="assets/images/burger.jpg" alt="picture-of-burger" width="320">
             </div>
         </section>
-        <section>
+        <section class="menu-section">
             <div>
                 <h3>Sunday Roasts 11am-6pm:</h3>
                 <ul>
@@ -156,12 +156,12 @@
                 </ul>
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1635897411141-7bd2b9c6ab16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="roast-dinner-picture" width="320">
+                <img src="assets/images/roast.jpg" alt="roast-dinner-picture" width="320">
             </div>
         </section>
+        <hr>
     </main>
-     <!--Footer with hr break -->
-     <hr>
+     <!--Footer-->
      <footer>
         <span>Find Us Online: </span>
         <ul>

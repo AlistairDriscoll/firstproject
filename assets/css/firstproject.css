@@ -9,6 +9,8 @@ body {
 h1 {
     font-family: 'Barriecito', 'Brush Script MT', cursive;
     color: #fbb70d;
+    padding:75px;
+    margin: none;
 }
 
 h2, h3 {
@@ -17,19 +19,17 @@ h2, h3 {
 
 header {
     font-size: xx-large;
-    padding: 3rem;
     margin: 5px;
-    background: #d5531f url('../images/header-background-compressed.jpg') center / 80%;
+    background: #d5531f url('../images/header-background-compressed.jpg') center/ 80%;
     border-radius:30px;
 }
 
 nav {
-    padding: 10px;
     font-size: 1.5rem;
-    background-color: #d5531f;
-    border-radius: 100px;
     display: flex;
     justify-content: space-around;
+    align-self: flex-end;
+    margin: none;
 }
 
 a{
@@ -59,7 +59,13 @@ footer a{
     font-size: large;
 }
 
-#map{
-    height:100px;
-    width:289px;
+.menu-section{
+    width: 100%;
+    display: flex;
+    justify-content: space around;
+    align-items: center;
+}
+
+.menu-section-reverse{
+    flex-direction: row-reverse;
 }
