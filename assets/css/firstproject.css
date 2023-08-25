@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barriecito');
+
 body {
     background-color: #99efa7;
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-h1, h2, h3 {
-    text-transform: full-width;
+h1 {
     font-family: 'Barriecito', 'Brush Script MT', cursive;
     color: #fbb70d;
 }
 
+h2, h3 {
+    font-family: 'Barriecito', 'Brush Script MT', cursive;
+}
 
 header {
     font-size: xx-large;
@@ -20,11 +23,43 @@ header {
     border-radius:30px;
 }
 
+nav {
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #d5531f;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    margin: 0px;
+    color:#fbb70d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#99efa7
+}
 
 
 .text-center {
     text-align: center;
 }
 
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #6782e5;
+}
 
+footer a{
+    font-family: 'Barriecito', 'Brush Script MT', cursive;
+    font-size: large;
+}
 
+#map{
+    height:100px;
+    width:289px;
+}
