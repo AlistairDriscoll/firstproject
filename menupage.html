@@ -23,11 +23,11 @@
     <hr>
     <!--content for menus page-->
     <main>
-        <section class="menu-section text-center">
-            <h2>Menus:</h2>
+        <h2 class="text-center">Food & Drink Menus:</h2>
+        <section class="menu-section">
             <div>
                 <h3>Beer and Cider:</h3>
-                <ul>
+                <ol class="move-list-left">
                     <li>Amstel £3.50 (pint)</li>
                     <li>Camden Pale £3.90 (pint)</li>
                     <li>Heineken £4.00 (pint)</li>
@@ -36,23 +36,23 @@
                     <li>Pear Cider £4.30 (pint)</li>
                     <li>Guinness £4.35 (pint)</li>
                     <li>Belgian Beer £4.00 (2/3 pint)</li>
-                </ul>
+                </ol>
             </div>
             <div>
-                <img src="assets/images/beers.jpg" alt="picture-of-beers" width="320">
+                <img src="assets/images/beers.jpg" alt="picture-of-beers" width="320px">
             </div>
         </section>
         <br>
         <section class="menu-section menu-section-reverse">
             <div>
                 <h3>Cocktails:</h3>
-                <ul>
+                <ol class="move-list-left">
                     <li>Spagliato £6.45</li>
                     <li>Aperol Spritz £6.75</li>
                     <li>Hugo Spritz £6.95</li>
                     <li>Old Fashioned £8.45</li>
                     <li>Espresso Martini £8.55</li>
-                </ul>
+                </ol>
             </div>
             <div>
                 <img src="assets/images/Cocktails.jpg" alt="picture-of-cocktails" width="320">
@@ -61,12 +61,12 @@
         <section class="menu-section">
             <div>
                 <h3>Wine List:</h3>
-                <ul>
+                <ol>
                     <li>Red Wine
                         <ul>
                             <li>Rioja: £4.75 Glass £25 Bottle</li>
                             <li>Merlot: £5:00 Glass £28 Bottle</li>
-                            <li>Algianico: £5:35 Glass £31 Bottle</li>
+                            <li>Aglianico: £5:35 Glass £31 Bottle</li>
                         </ul>
                     </li>
                     <li>White Wine
@@ -89,7 +89,7 @@
                             <li>Champagne: £6.00 Glass £35 Bottle</li>
                         </ul>
                     </li>
-                </ul>
+                </ol>
             </div>
             <div>
                 <img src="assets/images/wines.jpg" alt="wine-picture" width="320">
@@ -98,14 +98,14 @@
         <section class="menu-section menu-section-reverse">
             <div>
                 <h3>All Day Snacks:</h3>
-                <ul>
+                <ol>
                     <li>Pickled Onion Space Raiders £1</li>
                     <li>Scampi Fries £1.85</li>
                     <li>Cheese and Onion Crisps £1.95</li>
                     <li>Peanuts £2.50</li>
                     <li>Mixed Nuts £3.00</li>
                     <li>Mixed Olives £3.50</li>
-                </ul>
+                </ol>
             </div>
             <div>
                 <img src="assets/images/olives.jpg" alt="picture-of-olives" width="320">
@@ -114,14 +114,14 @@
         <section class="menu-section">
             <div>
                 <h3>Breakfast & Brunch 8am-2pm:</h3>
-                <ul>
+                <ol>
                     <li>Pain Au Chocolate £2.50</li>
                     <li>Banana + Blueberry Pacakes with Nutella or Honey £5.50</li>
                     <li>Ham and Cheese Panini with Side Salad and Chips £6.50</li>
                     <li>Eggs Benedict on Toast £6.65</li>
                     <li>Full Veggie Fry Up £7.00</li>
                     <li>Full English Fry Up £7.50 (add black pudding for £1 extra)</li>
-                </ul>
+                </ol>
             </div>
             <div>
                 <img src="assets/images/pancakes.jpg" alt="pancake-picture" width="320">
@@ -130,7 +130,7 @@
         <section class="menu-section menu-section-reverse">
             <div>
                 <h3>Evening 3pm-7pm:</h3>
-                <ul>
+                <ol>
                     <li>Jacket Potato with beans and Cheese £7.50 (V)</li>
                     <li>Margerita Pizza £8.50 (v) </li>
                     <li>Chicken Caesar Salad £8.95</li>
@@ -138,7 +138,7 @@
                     <li>Salmon and Spring Greens £11:95</li>
                     <li>Burger and Chips £12.50</li>
                     <li>Sirloin Steak and Chips £14.95</li>
-                </ul>
+                </ol>
             </div>
             <div>
                 <img src="assets/images/burger.jpg" alt="picture-of-burger" width="320">
@@ -147,13 +147,13 @@
         <section class="menu-section">
             <div>
                 <h3>Sunday Roasts 11am-6pm:</h3>
-                <ul>
+                <ol>
                     <li>Chicken £16.95</li>
                     <li>Vegan £17.45</li>
                     <li>Pork £17.95</li>
                     <li>Lamb £18.95</li>
                     <li>Beef £19.45</li>
-                </ul>
+                </ol>
             </div>
             <div>
                 <img src="assets/images/roast.jpg" alt="roast-dinner-picture" width="320">
@@ -161,9 +161,10 @@
         </section>
         <hr>
     </main>
-     <!--Footer-->
-     <footer>
-        <span>Find Us Online: </span>
+    <!--Footer-->
+    <footer>
+        <div>
+            <span><strong>Find Us On Social Media: </strong></span>
         <ul>
             <li>
                 <a href="https://www.facebook.com/">Facebook</a>
@@ -178,6 +179,12 @@
                 <a href="https://www.youtube.com/">Youtube</a>
             </li>
         </ul>
-        <p>Address: 603 Meanwood Road LS6 4AY</p>
+        </div>
+        
+        <div>
+            <p><strong>Address:</strong> 603 Meanwood Road LS6 4AY</p>
+            <p><strong>Telephone:</strong> 0113 2784630</p>
+            <p><strong>E-mail:</strong> allypallysjazzgaff@gmail.com</p>
+        </div>
     </footer>
 </body>
