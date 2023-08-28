@@ -29,11 +29,11 @@
     <h2>Contact</h2>
     <main>
         <form>
-            <label for="nameinput">Enter name here:</label>
-            <input type="name" id="nameinput">
+            <label for="nameinput" required>Enter name here:</label>
+            <input type="name" id="nameinput" required>
             <br>
             <label for="emailinput" type="email">Enter your email:</label>
-            <input type="email" id="emailinput">
+            <input type="email" id="emailinput" required>
             <br>
             <fieldset>
                 <legend>What are you contacting us for?</legend>
@@ -50,15 +50,15 @@
                 <input type="checkbox" id="orequestsbutton" name="orequests">
             </fieldset>
             <br>
-            <label for="extrainfo">Type any extra info here:</label>
+            <label for="extrainfo">Type all extra info here:</label>
             <br>
-            <textarea id="extrainfo" name="extrainfo" placeholder="Write here" rows="15" cols="42"></textarea>
+            <textarea id="extrainfo" name="extrainfo" placeholder="Write here" rows="15" cols="42" required></textarea>
             <br>
             <input type="reset" value="Reset">
-            <input type="submit">
+            <input type="submit" href="formsent.html">
         </form>
     </main>
-    <!--Footer with hr break -->
+    <!--Footer-->
     <footer>
         <div>
             <span><strong>Find Us On Social Media: </strong></span>
