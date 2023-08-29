@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barriecito');
 
+/*CSS for shared content*/
 body {
     background-color: #561b1a;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -65,6 +66,34 @@ footer a {
     color:#fbb70d;
 }
 
+div > img {
+    border-radius: 30px;
+}
+
+.big-font{
+    font-size: x-large;
+}
+
+.cyan-color {
+    color:#99efa7;
+}
+
+/*main page css*/
+#bottom-contact-button {
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: orange;
+    
+}
+
+#hyde-brass {
+    width: 80%;
+}
+
+/*menu page CSS*/
 .menu-section{
     background-color: #f24a2e;
     border: 2px solid black;
@@ -85,29 +114,20 @@ ol{
     right: 3rem;
 }
 
-#bottom-contact-button {
-    font-weight: bold;
-    color: black;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: orange;
-    
-}
 
-#hyde-brass {
-    width: 80%;
-}
-.flex {
-    display: flex;
-}
-
-div > img {
+/*Contact section CSS*/
+#contact-section {
+    background: #d5531f url('../images/double-bass.jpg') center left;
+    color: #99efa7;
+    width: 30%;
     border-radius: 30px;
+    margin-top: 30px;
 }
 
-#sentform-div {
-    border: 2px solid black;
+#contact-form-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 
 input[type=submit] {
@@ -133,22 +153,49 @@ input[type=reset] {
 }
 
 input[type=submit],
-input[type=reset]:focus {
+input[type=reset]:hover {
     color:#99efa7;
     background-color:#561b1a
 }
 
-#contact-section {
-    background: #d5531f url('../images/double-bass.jpg') center left;
-    color: #99efa7;
-    width: 30%;
-    border-radius: 30px;
-    margin-top: 30px;
-}
-
-#contact-form-flex {
+/*Sent form CSS*/
+#sentform-div {
+    pointer-events: none;
+    background:#f24a2e url('../images/piano.jpg') center bottom / 100%;
+    color: #f24a2e;
     flex-direction: column;
-    justify-content: center;
-    align-items:center;
+    align-items: center;
+    margin: 20px;
+    border:2px solid black;
+    border-radius: 30px;
+    width: 50%;
+    height: 17rem;
 }
 
+#homepage-from-formsent-button {
+    font-family: 'Barriecito', 'Brush Script MT', cursive;
+    color: black;
+    background-color: #fbb70d;
+    margin: 20px 0px 70px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: auto;
+    padding: 30px;
+}
+
+
+
+div > a:hover{
+    pointer-events: auto;
+    background-color: #561b1a;
+    color: #99efa7;
+}
+
+/*flex stuff*/
+.flex {
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+}
