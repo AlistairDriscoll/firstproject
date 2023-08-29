@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Barriecito');
 
 body {
-    background-color: #d5531f;
+    background-color: #561b1a;
     font-family: 'Open Sans', Arial, sans-serif;
+    color:#99efa7;
 }
 
 h1 {
     font-family: 'Barriecito', 'Brush Script MT', cursive;
-    color: #fbb70d;
+    color: #99efa7;
     padding:75px;
     margin: none;
 }
@@ -20,7 +21,7 @@ h2, h3 {
 header {
     width: 100%;
     font-size: xx-large;
-    background: #d5531f url('../images/header-background-compressed.jpg') center/ 80%;
+    background: #d5531f url('../images/header-background-compressed.jpg') center right / 105%;
     border-radius:30px;
 }
 
@@ -105,4 +106,49 @@ div > img {
     border-radius: 30px;
 }
 
+#sentform-div {
+    border: 2px solid black;
+}
+
+input[type=submit] {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Barriecito', 'Brush Script MT', cursive;
+    font-size: 1.5rem;
+    color: #99efa7;
+    background-color:#f24a2e;
+}
+
+input[type=reset] {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Barriecito', 'Brush Script MT', cursive;
+    font-size: 1.5rem;
+    color: #f24a2e;
+    background-color:#99efa7;
+}
+
+input[type=submit],
+input[type=reset]:focus {
+    color:#99efa7;
+    background-color:#561b1a
+}
+
+#contact-section {
+    background: #d5531f url('../images/double-bass.jpg') center left;
+    color: #99efa7;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#contact-form-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
 
