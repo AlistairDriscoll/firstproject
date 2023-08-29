@@ -12,7 +12,6 @@ h1 {
     font-family: 'Barriecito', 'Brush Script MT', cursive;
     color: #99efa7;
     padding:75px;
-    margin: none;
 }
 
 h2, h3 {
@@ -31,7 +30,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-self: flex-end;
-    margin: none;
     z-index: 5;
 }
 
@@ -161,7 +159,7 @@ input[type=reset]:hover {
 /*Sent form CSS*/
 #sentform-div {
     pointer-events: none;
-    background:#f24a2e url('../images/piano.jpg') center bottom / 100%;
+    background:#d5531f url('../images/piano.jpg') center bottom / 100%;
     color: #f24a2e;
     flex-direction: column;
     align-items: center;
