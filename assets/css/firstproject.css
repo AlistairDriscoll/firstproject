@@ -181,8 +181,6 @@ input[type=reset]:hover {
     padding: 30px;
 }
 
-
-
 div > a:hover{
     pointer-events: auto;
     background-color: #561b1a;

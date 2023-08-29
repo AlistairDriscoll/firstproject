@@ -1,8 +1,14 @@
 # Project 1- HTML and CSS
-This is a website for a cafe called Ally Pallys
+This is a website for a cafe called Ally Pally's. It is a live music venue that sells a variety of food and alcoholic drinks.
 
 ## Requirements
-The website was designed to be interactive, aesthetic, with a complete home page, contact page and page that has the menus. The home page would be the 'what we're about' section where a paragraph explain
+The website was desinged so the user can find out everything they need to know about the cafe. It has an intoductory paragraph that talks about the emphasis of live music in the establishment and the user can go on further to find out what it has going on through the week, the opening and closing times, what food and drinks it serves and their times, and it's prices. There is also information about it's location, phone number and social media links in the footer, and if the user wants to find out more about our events or any other queries then there is a contact page that has a form they can fill out.
+
+
+
+
+
+
 
 https://static.vecteezy.com/system/resources/previews/002/215/990/original/saxophone-icon-musical-instrument-for-jazz-golden-musical-instruments-concept-classical-music-jazz-concert-performance-flat-cartoon-illustration-isolated-on-white-background-vector.jpg
 
