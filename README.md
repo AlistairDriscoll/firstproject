@@ -17,7 +17,9 @@ The header is near enough the exact same code accross all pages which has the na
 
 -The links all have a hover effect added to emphasise to the user that they can be interacted with.
 
-![Navigation bar]()
+![Navigation bar](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/navbar.png)
+
+
 
 
 
