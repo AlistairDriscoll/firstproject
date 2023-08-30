@@ -122,9 +122,12 @@ ol{
 
 /*Contact section CSS*/
 #contact-section {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #d5531f url('../images/double-bass.jpg') center left;
     color: #99efa7;
-    width: 100%;
     max-width: 40rem;
     border-radius: 30px;
     margin-top: 30px;
@@ -133,8 +136,14 @@ ol{
 #contact-form-flex {
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
+
+#extrainfo {
+    resize: none;
+    width: 90%;
+}
+
 
 input[type=submit] {
     height: 40px;
