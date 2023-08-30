@@ -1,4 +1,4 @@
-![Ally Pally's Logo]()
+![Ally Pally's Logo](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/logo-pic.png)
 
 # Project 1- HTML and CSS
 This is a website for a cafe called Ally Pally's. It is a live music venue that sells a variety of food and alcoholic drinks.
