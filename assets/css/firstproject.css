@@ -84,18 +84,26 @@ div > img {
     border-radius: 5px;
     padding: 5px;
     background-color: orange;
-    
 }
 
-#hyde-brass {
-    width: 80%;
+#bottom-contact-button:hover {
+    color:#fbb70d;
+    background-color: #561b1a;
+}
+
+.schedule-container {
+    width: 100%;
+    justify-content: center;
+}
+
+.hyde-brass-small {
+    width: 100%;
 }
 
 /*menu page CSS*/
 .menu-section{
     background-color: #f24a2e;
     border: 2px solid black;
-    width: 97%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,7 +117,6 @@ div > img {
 
 ol{
     position: relative;
-    right: 3rem;
 }
 
 
@@ -117,7 +124,8 @@ ol{
 #contact-section {
     background: #d5531f url('../images/double-bass.jpg') center left;
     color: #99efa7;
-    width: 30%;
+    width: 100%;
+    max-width: 40rem;
     border-radius: 30px;
     margin-top: 30px;
 }
@@ -150,7 +158,12 @@ input[type=reset] {
     background-color:#99efa7;
 }
 
-input[type=submit],
+input[type=submit]:hover {
+    background-color:#561b1a;
+    color: #f24a2e;
+}
+
+
 input[type=reset]:hover {
     color:#99efa7;
     background-color:#561b1a
@@ -158,7 +171,6 @@ input[type=reset]:hover {
 
 /*Sent form CSS*/
 #sentform-div {
-    pointer-events: none;
     background:#d5531f url('../images/piano.jpg') center bottom / 100%;
     color: #f24a2e;
     flex-direction: column;
@@ -167,7 +179,6 @@ input[type=reset]:hover {
     border:2px solid black;
     border-radius: 30px;
     width: 50%;
-    height: 17rem;
 }
 
 #homepage-from-formsent-button {
@@ -181,7 +192,7 @@ input[type=reset]:hover {
     padding: 30px;
 }
 
-div > a:hover{
+#homepage-from-formsent-button:hover {
     pointer-events: auto;
     background-color: #561b1a;
     color: #99efa7;
@@ -195,3 +206,16 @@ div > a:hover{
 .flex-center{
     justify-content: center;
 }
+
+
+@media screen and (max-width: 714px) {
+    .schedule-container, .menu-section {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    
