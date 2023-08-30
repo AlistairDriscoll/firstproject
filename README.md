@@ -73,14 +73,37 @@ The main content of the contact page consists of just a form for the user to fil
 ![Color scheme](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/color-scheme.png)
 the color black was also used along with #f24a2e which is the more salmon kind of color that was mentioned earlier. The whole color scheme started with me using an eye dropper website to select a shade of brown from the guitar in the header. I then went to an AI color palette generater and locked it in the middle. I then kept refreshing the color palette until the generater had made darker and lighter shades to my liking, locking them in as I go so it was more likely to choose more appropriate colors as we went on. As mentioned before I thought that darker colors a lot of the time such as the dark purple background would be more fitting of a place that has a lot of jazz music.
 
+## Typography
+
+Only two font families were used throughout the website. Either font-family: 'Open Sans', Arial, sans-serif; for the more general stuff such as any p elements. It was actually put into the body element of the HTML in CSS making it the standard then a class with font-family: 'Barriecito', 'Brush Script MT', cursive; was used in overriding classes for other more important elements in the website such as h1-h3, and some hyperlink tags in the footer. As previously stated Barriecito was chosen for its more fun casual sort of nature that would counteract the darker moodier tones of the color scheme in places.
+
 ## Testing
 
 The website was tested out on different browsers (Google Chrome, Microsoft Edge and Mozilla Firefox) and on all counts was found to be responsive. An above picture shows how the website would look on different devices as shown on a website called 'Am I Responsive?' where one can see what their product looks like on phones, tablets laptops and bigger computer screens.
 
 ### Responsiveness
 
+![index responsivity testing](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/index-responsivness.png)
+![Menu responsivity testing](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/menu-responsivness.png)
+![Contact responsivity testing](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/Contact-responsivness.png)
 
+## Deployment
 
+This website is deployed on Github. To deploy go to settings, select the main branch, and press save.
+
+- The live link can be found here ![Ally Pallys](https://alistairdriscoll.github.io/firstproject/index.html)
+
+## Credits
+
+### Content
+
+The button classes on my form with opposing colors to suggest a completely different usage were inspired by the coders coffeehouse form that I did in my Code Institute course content.
+
+The idea to have another page with a 'thank you for getting in touch' message after completing the contact form was inspired by my mentor Julia's Animal shelter page, along with what to put in my aria label messages.
+
+### Media
+
+Alot of the images used were taken from a website called unsplash, which seemed to be the best provider of useful and specific stock photos out of all the ones I tried.
 
 https://static.vecteezy.com/system/resources/previews/002/215/990/original/saxophone-icon-musical-instrument-for-jazz-golden-musical-instruments-concept-classical-music-jazz-concert-performance-flat-cartoon-illustration-isolated-on-white-background-vector.jpg
 
@@ -90,7 +113,7 @@ https://images.unsplash.com/photo-1554381401-dc595be1d842?ixlib=rb-4.0.3&ixid=M3
 
 https://images.unsplash.com/photo-1683543121487-b718fa4f8bd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80
 
-https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="pancake-picture" width="3
+https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
 
 https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80
 
