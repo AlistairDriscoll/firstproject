@@ -55,9 +55,29 @@ The menus page has a list of all the different menus, with the times we are serv
 
 The main content of the contact page consists of just a form for the user to fill out. The mandatory fields are the name input so we know who we are corresponding with, the email input so we can reply back, and the text area for the user to add additional information. the form has a maximum width so that the background image will not be distorted or repeat itself as it would if it went to the full width of a computer screen. The user can pick a subject from the checkboxes but doesn't need to in order to be able to send the form off. Due to this only being an HTML and CSS project, the method has been set to "get" and not "post" as it is not actually sending off the information to be dealt with. The two buttons are deliberately in contrasting colours to eachother so that it is stressed to the user that they have completely different functions, and they once more have hover classes that change the colour. The submit button will then take the user to another page which gives them a thank you message and informs them that they will be responded to within 48 hours. A link will be there for the user to press here to take them back to the home page.
 
-![Contact form]()
-![Sent form page]()
+![Contact form](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/contact.form.png)
+![Sent form page](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/sent-form-message.png)
 
+
+## Technologies used
+
+- HTML founded the structure of the site.
+- CSS was responsible for the look and colouring of the site.
+- CSS flexbox was used to arrange the items correctly on their pages.
+- Balsamiq was used to sketch out how the website would look.
+- VS Code was used to code out the entire project.
+- Git and Github were used to save the project and upload it to a cloud
+
+## Design
+
+![Color scheme](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/color-scheme.png)
+the color black was also used along with #f24a2e which is the more salmon kind of color that was mentioned earlier. The whole color scheme started with me using an eye dropper website to select a shade of brown from the guitar in the header. I then went to an AI color palette generater and locked it in the middle. I then kept refreshing the color palette until the generater had made darker and lighter shades to my liking, locking them in as I go so it was more likely to choose more appropriate colors as we went on. As mentioned before I thought that darker colors a lot of the time such as the dark purple background would be more fitting of a place that has a lot of jazz music.
+
+## Testing
+
+The website was tested out on different browsers (Google Chrome, Microsoft Edge and Mozilla Firefox) and on all counts was found to be responsive. An above picture shows how the website would look on different devices as shown on a website called 'Am I Responsive?' where one can see what their product looks like on phones, tablets laptops and bigger computer screens.
+
+### Responsiveness
 
 
 
