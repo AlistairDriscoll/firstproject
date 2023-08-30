@@ -6,6 +6,19 @@ This is a website for a cafe called Ally Pally's. It is a live music venue that 
 ## Requirements
 The website was desinged so the user can find out everything they need to know about the cafe. It has an intoductory paragraph that talks about the emphasis of live music in the establishment and the user can go on further to find out what it has going on through the week, the opening and closing times, what food and drinks it serves and their times, and it's prices. There is also information about it's location, phone number and social media links in the footer, and if the user wants to find out more about our events or any other queries then there is a contact page that has a form they can fill out.
 
+## Features
+
+### Header
+The header is near enough the exact same code accross all pages which has the name as a h1 in big contrasting letters to the background picture. The background picture, like all others in the project is a closeup picture of a musician playing their instrument. I deliberately chose all pictures to have the musician facing away from the camera, to accent the fact that they are playing to a live audience to emphasise that the establishment is a live music venue. I chose the guitar as the first picture because the color scheme came from me choosing a shade from the middle of the guitar and finding matching colors after to go with it.
+
+-The nav bar is also on the bottom of the header, to position it at the top of the page at all times. The different links are spread across the navbar:
+    +The Homepage hyperlink is a link to take you to the home page of the website where the user can find out more about the cafe, it's events and what it has going on.
+    +The Menus hyperlink takes you to where the menus are, and the Contact link takes the customer to a page with a contact form to fill out.
+
+-The links all have a hover effect added to emphasise to the user that they can be interacted with.
+
+![Navigation bar]()
+
 
 
 
