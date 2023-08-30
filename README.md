@@ -46,6 +46,10 @@ The other mutual feature between all pages is the footer, which has links to the
 
 The menus page has a list of all the different menus, with the times we are serving the food written in their headers. Flex is used to arrange them in a neat and aesthetically pleasing way with the pictures rounded off with a 30px radius which is uniform with all other img elements used in the website. I added another salmony color to the backgrounds of all the divs to add further contrast in the website.
 
+![First two menu divs](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/first-menu-divs.png)
+![Third menu div](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/third-menu-div.png)
+![Penultimate menu divs](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/penultimate-menu-divs.png)
+![Final menu divs](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/bottom-menu-divs.png)
 
 
 
