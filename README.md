@@ -51,8 +51,12 @@ The menus page has a list of all the different menus, with the times we are serv
 ![Penultimate menu divs](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/penultimate-menu-divs.png)
 ![Final menu divs](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/bottom-menu-divs.png)
 
+## Contact page
 
+The main content of the contact page consists of just a form for the user to fill out. The mandatory fields are the name input so we know who we are corresponding with, the email input so we can reply back, and the text area for the user to add additional information. the form has a maximum width so that the background image will not be distorted or repeat itself as it would if it went to the full width of a computer screen. The user can pick a subject from the checkboxes but doesn't need to in order to be able to send the form off. Due to this only being an HTML and CSS project, the method has been set to "get" and not "post" as it is not actually sending off the information to be dealt with. The two buttons are deliberately in contrasting colours to eachother so that it is stressed to the user that they have completely different functions, and they once more have hover classes that change the colour. The submit button will then take the user to another page which gives them a thank you message and informs them that they will be responded to within 48 hours. A link will be there for the user to press here to take them back to the home page.
 
+![Contact form]()
+![Sent form page]()
 
 
 
