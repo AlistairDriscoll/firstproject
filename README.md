@@ -33,13 +33,14 @@ The homepage, or the index.html page starts with an introductory 'what we're abo
 
 The 'on this week' section that follows has a picture of the highlight act of the week, a local band with a picture to the left of a desktop screen or on the bottom of a phone screen, and a description of the band and more bold text to emphasise when the doors open for the event. Another link is in this section which invites the user to the websites contact page if they are interested in attending.
 
+![index.html main content](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/index-page-pic.png)
 
 ### The footer
 
 The other mutual feature between all pages is the footer, which has links to the cafes social media pages. Code is included to open up a new tab for the links so the customer will not leave the website, and the links just take you to the main pages of the websites as the cafe is fictitious and doesn't actually have any social media pages. An address and contact number is also provided in the footer thus giving all the user all the important information about the cafe, including the opening times, all of the events of the week, address and contact number by the time they have read through the first page, should they wish to get in touch or visit.
 
 
-
+![footer picture](
 
 
 
