@@ -81,6 +81,44 @@ Only two font families were used throughout the website. Either font-family: 'Op
 
 The website was tested out on different browsers (Google Chrome, Microsoft Edge and Mozilla Firefox) and on all counts was found to be responsive. An above picture shows how the website would look on different devices as shown on a website called 'Am I Responsive?' where one can see what their product looks like on phones, tablets laptops and bigger computer screens.
 
+### Accesibility
+
+Lighthouse scoring for index.html can be seen here ![index.html lighthouse pic](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/index-lighthouse.png)
+
+Lighthouse for menupage.html ![menupage.html lighthouse](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/menus-lighthouse.png)
+
+Lighthouse for contactpage.html ![contactpage.html lighthouse](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/contact-lighthouse.png)
+
+### Validation
+
+index.html validation: 
+![index validation](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/index-page-validation.png)
+
+The only problem with the menus validation is that it seemed to think the 0 digit was supposed to be a p, it doesn't intefere with the code so I just left it.
+ ![menu validation](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/menu-page-validation.png)
+
+With the contactpage.html validation I realised I accidentally assigned required values to labels as well as giving the email label an email type, I think due to the lines being so close together I might have gotten mixed up. I also thought there was such this as a 'name' input when I really should have put "text".
+
+![contactpage.html validation](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/contact-page-validation1.png)
+
+![contactpage.html validation 2](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/contact-page-validation-completed-code.png)
+
+I then amended the code.
+
+![contactpage.html validation complete](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/contact-page-validation-complete.png)
+
+With the CSS validation, I realised after experimenting with color contrast I accidentally put the background color to a background image and the color of the text as the same, this was then amended. I also struggled at first with pointer-events as my hover classes were not working at first.
+
+![css validation](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/css-validation-problems.png)
+
+![more css validation](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/css-validation-problems2.png)
+
+![finished css validation](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/css-validation-solved2.png)
+
+### Bugs
+
+bugs were that I got stuck in a rabbit hole trying to fix the hover functions for the sentform homepage button. I eventually solved this with devtools.
+
 ### Responsiveness
 
 ![index responsivity testing](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/index-responsivness.png)
@@ -105,18 +143,37 @@ The idea to have another page with a 'thank you for getting in touch' message af
 
 Alot of the images used were taken from a website called unsplash, which seemed to be the best provider of useful and specific stock photos out of all the ones I tried.
 
-https://static.vecteezy.com/system/resources/previews/002/215/990/original/saxophone-icon-musical-instrument-for-jazz-golden-musical-instruments-concept-classical-music-jazz-concert-performance-flat-cartoon-illustration-isolated-on-white-background-vector.jpg
+![The websites icon](https://static.vecteezy.com/system/resources/previews/002/215/990/original/saxophone-icon-musical-instrument-for-jazz-golden-musical-instruments-concept-classical-music-jazz-concert-performance-flat-cartoon-illustration-isolated-on-white-background-vector.jpg)
 
-https://images.unsplash.com/photo-1633485666359-f93a2a27f59c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 
-https://images.unsplash.com/photo-1554381401-dc595be1d842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=391&q=80
+![Header picture](https://images.unsplash.com/photo-1633485666359-f93a2a27f59c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
 
-https://images.unsplash.com/photo-1683543121487-b718fa4f8bd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80
+![Sentform piano picture](https://unsplash.com/photos/0PFCxy_n9F8)
 
-https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+![Double bass picture](https://unsplash.com/photos/vSws0g1KjxI)
 
-https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80
+![Hyde park brass picture](https://hydeparkbrass.com/)
 
-https://images.unsplash.com/photo-1635897411141-7bd2b9c6ab16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80
+![Saxophone picture](https://unsplash.com/photos/1ayBjduURMo)
 
-https://images.unsplash.com/photo-1642345844778-2a8fb27e6144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+![Beers picture](https://unsplash.com/photos/a-row-of-beer-glasses-sitting-on-top-of-a-wooden-tray-vt0O0Av96R4)
+
+![Cocktails picture](https://unsplash.com/photos/dmkmrNptMpw)
+
+![Wines Picture](https://images.unsplash.com/photo-1554381401-dc595be1d842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=391&q=80)
+
+![Olives picture](https://images.unsplash.com/photo-1683543121487-b718fa4f8bd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80)
+
+![Pancakes picture](https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80")
+
+![Burger picture](https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80)
+
+![Roast dinner picture](https://images.unsplash.com/photo-1635897411141-7bd2b9c6ab16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80)
+
+
+
+### Tools
+
+I used cloudconvert.com to convert avif files to png
+
+I used tingpng.com to compress the converted png images to use in my project.
