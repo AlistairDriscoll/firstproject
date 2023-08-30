@@ -40,7 +40,13 @@ The 'on this week' section that follows has a picture of the highlight act of th
 The other mutual feature between all pages is the footer, which has links to the cafes social media pages. Code is included to open up a new tab for the links so the customer will not leave the website, and the links just take you to the main pages of the websites as the cafe is fictitious and doesn't actually have any social media pages. An address and contact number is also provided in the footer thus giving all the user all the important information about the cafe, including the opening times, all of the events of the week, address and contact number by the time they have read through the first page, should they wish to get in touch or visit.
 
 
-![footer picture]()
+![footer picture](https://github.com/AlistairDriscoll/firstproject/blob/main/assets/images/readme-pics/footer-pic.png)
+
+## Menus page
+
+The menus page has a list of all the different menus, with the times we are serving the food written in their headers. Flex is used to arrange them in a neat and aesthetically pleasing way with the pictures rounded off with a 30px radius which is uniform with all other img elements used in the website. I added another salmony color to the backgrounds of all the divs to add further contrast in the website.
+
+
 
 
 
